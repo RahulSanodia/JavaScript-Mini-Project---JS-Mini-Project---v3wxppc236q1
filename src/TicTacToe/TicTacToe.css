@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(227, 230, 231);
+  background: linear-gradient(
+    300deg,
+    rgba(227, 230, 231, 1) 0%,
+    rgba(68, 235, 205, 1) 0%,
+    rgba(176, 244, 233, 1) 0%,
+    rgba(131, 240, 221, 1) 0%,
+    rgba(226, 248, 245, 1) 35%,
+    rgba(236, 249, 248, 1) 54%,
+    rgba(120, 226, 246, 1) 100%,
+    rgba(30, 209, 245, 1) 100%
+  );
+}
+.tbleBody:hover {
+  box-shadow: rgba(236, 229, 229, 0.014) 0 4px 12px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 100vh;
+  width: 550px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgb(6 28 37 / 50%) 0 50px 63px;
+  /* padding-bottom: 60px; */
+  padding-left: 60px;
+    font-size: x-large;
+
+}
+
+.container2 {
+  margin-left: 14px;
+  float: right;
+  width: 160px;
+}
+
+.winnerH1 {
+  /* border: 2px solid ; */
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.winnerAno {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+}
+
+.trCell:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+table td {
+  border: 2px solid gray;
+  width: 100px;
+  height: 100px;
+}
+
+.button-5,
+#btn-winner {
+  font-family: "Quicksand", sans-serif;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-top: 20px;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+#btn-winner:hover,
+#btn-winner:focus {
+  background-color: #97ec66;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+#btn-winner:hover {
+  transform: translateY(-1px);
+}
+
+#btn-winner {
+  background-color: rgb(252, 255, 247);
+  color: rgb(55, 55, 55);
+}
+
+.trCell Cell:nth-child(n):hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 12px;
+}
+
+
